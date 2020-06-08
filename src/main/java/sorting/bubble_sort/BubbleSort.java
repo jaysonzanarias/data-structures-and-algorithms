@@ -1,16 +1,16 @@
 package sorting.bubble_sort;
 
 public class BubbleSort {
-    public int[] sort(int[] numbers) {
-        for (int i = 0; i < numbers.length - 1; i++) {
-            for (int j = 0; j < numbers.length - 1 - i; j++) {
-                if (numbers[j] > numbers[j + 1]) {
-                    int temp = numbers[j];
-                    numbers[j] = numbers[j + 1];
-                    numbers[j + 1] = temp;
+    public int[] sort(int[] data) {
+        for (int i = 0; i < data.length - 1; i++) {
+            for (int j = 0; j < data.length - 1 - i; j++) {
+                if (data[j] > data[j + 1]) {
+                    int temp = data[j];
+                    data[j] = data[j + 1];
+                    data[j + 1] = temp;
                 }
             }
         }
-        return numbers;
+        return data;
     }
 }

@@ -1,16 +1,16 @@
 package sorting.insertion_sort;
 
 public class InsertionSort {
-    public int[] sort(int[] numbers) {
-        for (int i = 0; i < numbers.length; i++) {
-            int current = numbers[i];
+    public int[] sort(int[] data) {
+        for (int i = 0; i < data.length; i++) {
+            int current = data[i];
             int j = i - 1;
-            while(j >= 0 && numbers[j] > current) {
-                numbers[j+1] = numbers[j];
+            while(j >= 0 && data[j] > current) {
+                data[j+1] = data[j];
                 j -= 1;
             }
-            numbers[j+1] = current;
+            data[j+1] = current;
         }
-        return numbers;
+        return data;
     }
 }

@@ -20,9 +20,11 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 - Selection Sort
 - Insertion Sort
 - Merge Sort
+- Quick Sort
 
 ## Time Complexity
-- Data Structures
+
+- Data Structure
 
     | Data Structure | Access | Search | Insert | Delete |
     |      ---       |  ---   |  ---   |  ---   |  ---   |
@@ -31,6 +33,12 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
     | Queue          |  O(n)  |  O(n)  |  O(1)  |  O(1)  |
     | LinkedList     |  O(n)  |  O(n)  |  O(1)  |  O(1)  |
     | Tree           | O(log<sub>2</sub>n) | O(log<sub>2</sub>n) | O(log<sub>2</sub>n) | O(log<sub>2</sub>n)  |
+
+- Sorting Algorithm
+
+    | Sorting Algorithm | Average Case | Worst Case |
+    |      ---          |  ---         |  ---       |
+    | Quick Sort        |  O(n log n)  | O(n<sup>2</sup>)  |
 
 ## Tree
 

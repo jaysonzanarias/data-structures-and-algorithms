@@ -21,6 +21,10 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 - Insertion Sort
 - Merge Sort
 - Quick Sort
+- Shell Sort
+- Counting Sort
+- Radix Sort
+- Bucket Sort
 
 ## Time Complexity
 
@@ -36,9 +40,17 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 
 - Sorting Algorithm
 
-    | Sorting Algorithm | Average Case | Worst Case |
-    |      ---          |  ---         |  ---       |
-    | Quick Sort        |  O(n log n)  | O(n<sup>2</sup>)  |
+    | Sorting Algorithm | Average Case        | Worst Case       |
+    |      ---          |  ---                |  ---             |
+    | Bubble Sort       |  O(n<sup>2</sup>)   | O(n<sup>2</sup>) |
+    | Selection Sort    |  O(n<sup>2</sup>)   | O(n<sup>2</sup>) |
+    | Insertion Sort    |  O(n<sup>2</sup>)   | O(n<sup>2</sup>) |
+    | Merge Sort        |  O(n log n)         | O(n log n)       |
+    | Quick Sort        |  O(n log n)         | O(n<sup>2</sup>) |
+    | Shell Sort        |  O(n (log n)<sup>2</sup>) | O(n (log n)<sup>2</sup>) |
+    | Counting Sort     |  O(n+k)             | O(n+k)         |
+    | Radix Sort        |  O(nk)              | O(nk)            |
+    | Bucket Sort       |  O(n+k)             | O(n<sup>2</sup>) |
 
 ## Tree
 

@@ -2,8 +2,8 @@
 My personal reviewer for different Data Structure and Algorithm Concepts.
 <br><br>
 **Note:** 
-- items listed are not complete, only the ones I was only able to study at the moment. Will continue to update.
-- for more details, you may visit this site https://www.bigocheatsheet.com/, it listed a lot of data structures and algorithms together with it's time complexity + a link to Wikipedia for each item.
+- Items listed are not complete, only the ones I was only able to study at the moment. Will continue to update.
+- For more details, you may visit https://www.bigocheatsheet.com/, it listed a lot of data structures and algorithms together with it's time complexity + a link to Wikipedia for each item.
 
 ## Language Used
 - Java
@@ -14,6 +14,8 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 - Queue
 - LinkedList
 - Tree
+    - Heap
+- Hash Table
 
 ## Sorting Algorithms
 - Bubble Sort
@@ -25,6 +27,7 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 - Counting Sort
 - Radix Sort
 - Bucket Sort
+- Heap Sort
 
 ## Time Complexity
 
@@ -37,6 +40,7 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
     | Queue          |  O(n)  |  O(n)  |  O(1)  |  O(1)  |
     | LinkedList     |  O(n)  |  O(n)  |  O(1)  |  O(1)  |
     | Tree           | O(log<sub>2</sub>n) | O(log<sub>2</sub>n) | O(log<sub>2</sub>n) | O(log<sub>2</sub>n)  |
+    | Hash Table     |        |  O(n)  |  O(n)  |  O(n)  |
 
 - Sorting Algorithm
 
@@ -51,6 +55,7 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
     | Counting Sort     |  O(n+k)             | O(n+k)         |
     | Radix Sort        |  O(nk)              | O(nk)            |
     | Bucket Sort       |  O(n+k)             | O(n<sup>2</sup>) |
+    | Heap Sort         |                     | O(n log<sub>2</sub> n) |
 
 ## Tree
 

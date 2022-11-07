@@ -75,3 +75,4 @@ My personal reviewer for different Data Structure and Algorithm Concepts.
 - https://www.tutorialspoint.com/data_structures_algorithms/
 - https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation
 - https://www.bigocheatsheet.com/
+- https://www.scaler.com/topics/data-structures/
